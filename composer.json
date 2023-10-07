@@ -1,0 +1,42 @@
+{
+  "name": "swobis/swobis",
+  "description": "Integration of SBIS and WordPress",
+  "type": "project",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://swobis.ru",
+  "autoload":
+  {
+    "psr-4": {"Swobis\\": "src/"}
+  },
+  "authors":
+  [
+    {
+      "name": "SWOBIS team",
+      "email": "support@swobis.ru",
+      "role": "Developer"
+    }
+  ],
+  "support":
+  {
+    "email": "support@swobis.ru"
+  },
+  "funding":
+  [
+    {
+      "type": "other",
+      "url": "https://swobis.ru/market/code"
+    }
+  ],
+  "require":
+  {
+    "php": ">=7.0",
+    "digiom/woplucore": "dev-main",
+    "digiom/wotices": "1.*",
+    "digiom/psr7wp": "dev-main",
+    "digiom/woap": "dev-main",
+    "psr/log": "1.*",
+    "psr/http-message": "1.0.*",
+    "monolog/monolog": "1.*"
+  }
+}
